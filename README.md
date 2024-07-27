@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Digital Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### <a href="https://yogeshmalikportfolio.netlify.app/">LIVE DEMO</a>
 
-## Available Scripts
+## 1. Make sure you have NODE installed!
 
-In the project directory, you can run:
+Firstly, you will need to download the latest version of Node by <a href="https://nodejs.org/en/download/">CLICKING HERE</a>
 
-### `npm start`
+## 2. Clone the repo!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Next, you will need to run the following command in the Terminal to clone the repo onto your machine.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`git clone https://github.com/Yogeshmalik/digital-pfolio.git`
 
-### `npm test`
+Then cd [folder name]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 3. Install Dependancies
 
-### `npm run build`
+Next, you need to install all the dependancies using:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm install`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Once this is done, you can start the app with:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`npm start`
 
-### `npm run eject`
+## 4. Fill in your personal info
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To populate the website with all of your own data, open the public/resumeData.json file and simply replace the data in there with your own. Images for the porfolio section are to be put in the public/images/portfolio folder.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 5. (OPTIONAL) Replacing images and/or fonts
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+If you want to display your own pictures then you have to replace the files at these locations: public/images/header-background.jpg, public/images/testimonials-bg.jpg and public/favicon.ico. FILE NAMES MUST NOT BE CHANGED else the code referencing these images will no longer work.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 7. Finalising Resume
 
-## Learn More
+Once all the formatting and data input is finalised, run `npm run build`. This will create a dedicated build folder.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 8. Host Resume Online
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Open the build folder in the finder screen
+2. Go to <a href="https://www.netlify.com/">Netlify</a> and set up a profile
+3. Go to the 'Sites Tab'
+4. Simply Drag and drop the 'Build' Folder into the designated upload space
+5. The app will begin deploying & the deployment URL will be presented!
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+BOOM, you are now LIVE!!!

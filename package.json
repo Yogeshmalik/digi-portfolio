@@ -1,5 +1,5 @@
 {
-  "name": "dig-port",
+  "name": "resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,8 +9,10 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
+    "react-typewriter": "^0.4.1",
     "web-vitals": "^2.1.4"
   },
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

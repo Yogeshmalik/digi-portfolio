@@ -1,0 +1,178 @@
+{
+  "main": {
+    "name": "Yogesh Singh Malik",
+    "occupation": "ReactJs Developer",
+    "description": "I eat, sleep and breathe React",
+    "image": "profilepic.jpg",
+    "bio": "I'm Yogesh, fondly known as faujibryant, a highly skilled Software Developer specializing in React.js, currently residing in Janakpuri, New Delhi. My formative years were shaped by my father's dedicated service in the Army, instilling in me the values of discipline and commitment. I did my schooling at Army Public Schools in Udhampur(J&K), APS Dhaula Kuan and APS Delhi Cantt. I earned a Bachelor of Engineering degree(Information Technology) from the prestigious Army Institute of Technology in Pune, affiliated with Savitribai Phule Pune University. My career began at Trendsetters Skill Assessors Pvt. Ltd. as a Frontend Developer, where I honed my skills in React.js, HTML, CSS, JavaScript, Redux, Material UI, Bootstrap, Enzyme, Jest, Git, SQL, and other technologies. Afterward, I joined Vaionex APAC, focusing on blockchain and AI technologies, enhancing my skills in React, Next.js, Tailwind CSS, Supabase, Notion, and various JavaScript/React/Next.js libraries, as well as deployment platforms like Vercel. Currently, I am with a firm developing web portals and other applications for Indian Oil Corporation Limited (IOCL), New Delhi. My web development skills led me to explore freelancing opportunities, where I garnered valuable experience in both frontend and backend development. I have also represented Pune District Basketball team and South West Delhi teams in senior-level competitions for Basketball, Netball, and Korfball, and have actively volunteered for social causes too. Being a sportsman, I understand the value of team-spirit and is never discouraged by failure but is always eager to learn more every day. I'm seeking a role that aligns with my extensive skill set and experiences, offering competitive compensation and substantial growth opportunities & I am open to freelance opportunities. Thankyou for your time",
+    "contactmessage": "Get in touch with me",
+    "email": "ysmworking@gmail.com",
+    "phone": "+91 7875884327",
+    "address": {
+      "street": "",
+      "city": "New Delhi",
+      "state": "India",
+      "zip": "1100XX"
+    },
+    "website": "https://codesandbox.io/u/yogeshmalik",
+    "resumedownload": "https://drive.google.com/file/d/1ldJvowXPClt4ziZvqPPHj_TSadVzEjqM/view",
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/Yogeshmalik",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ysmworking/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "Blog",
+        "url": "https://medium.com/@ballerbytes",
+        "className": "fa fa-code || fa fa-rss"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/kilamhsegoy/",
+        "className": "fa fa-instagram"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "SKILLS AND TOOLS I KNOW",
+    
+    "work": [
+      {
+        "company": "Maxworth EPL - Indian Oil Corporation Ltd - IOCL - Onsite, New Delhi",
+        "title": "SOFTWARE DEVELOPER",
+        "years": "03/2024 - Present",
+        "description": "During this tenure, I developed iSmart web portal for Indian Oil Corporation Ltd's senior officers for reports and analytics using React, Tailwind CSS and Various libraries and other techs like HTML, CSS, JavaScript, Material UI, Git, VS Code, and gained practical insights into crafting applications and maintenance of the website."
+      },
+      {
+        "company": "Vaionex APAC",
+        "title": "FRONTEND DEVELOPER",
+        "years": "2023",
+        "description": "During this tenure, I Developed full-stack web applications using Next.JS, React, Tailwind CSS and Notion, including HTML, CSS, JavaScript, Redux, Material UI, Tailwind CSS, Git, VS Code, Google Firebase Firestore Database, Firebase Storage, Firebase hosting and gained practical insights into crafting applications and maintenance of the website."
+      },
+      {
+        "company": "Trendsetters Skill Assessors Pvt. Ltd.",
+        "title": "FRONTEND DEVELOPER",
+        "years": "07/2020 - 09/2021",
+        "description": "During this tenure, I polished my frontend and backend development skills, including React.js, HTML, CSS, JavaScript, Redux, Material UI, Bootstrap, Enzyme, Jest, Git, SQL, Tableau, Photoshop, VS Code, Google Firebase Firestore Database, Firebase Storage, Firebase hosting and gained practical insights into crafting applications and maintenance of the website. If you know of any job openings in your company or network that may be a good fit for me, please let me know."
+      },
+      {
+        "company": "We Work For You & Optimum Wellness",
+        "title": "REACT  &  FRONTEND DEVELOPER",
+        "years": "3 + 1 Months",
+        "description": "During this tenure, I polished my frontend and backend development skills, including React.js, HTML, CSS, JavaScript, Redux, Material UI, Bootstrap, Enzyme, Jest, Git, SQL, Tableau, Photoshop, VS Code, Google Firebase Firestore Database, Firebase Storage, Firebase hosting and gained practical insights into crafting applications and maintenance of the website. If you know of any job openings in your company or network that may be a good fit for me, please let me know."
+      },
+      {
+        "company": "Capital Business Systems Private Limited and Togedr",
+        "title": "BDE",
+        "years": "2 Months + 1 Year",
+        "description": "Experience working as a Business Development Executive, where I gained expertise in Excel, Business opportunities, Marketing literature, Sales, Revenue, and Invoices. I've also worked in B2B and B2C environment and has proficiency in Tableau and Sales."
+      }
+    ],
+    "skills": [
+      {
+        "name": "React.Js",
+        "level": "79%"
+      },
+      {
+        "name": "Next.Js",
+        "level": "79%"
+      },
+      {
+        "name": "HTML5",
+        "level": "90%"
+      },
+      {
+        "name": "CSS3",
+        "level": "90%"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "Bootstrap"
+      },
+      {
+        "name": "Tailwind CSS"
+      },
+      {
+        "name": "Material UI"
+      },
+      {
+        "name": "Tableau"
+      },
+      {
+        "name": "Web Development"
+      },
+      {
+        "name": "Responsive Web Design"
+      },
+      {
+        "name": "Git"
+      },
+      {
+        "name": "VS Code"
+      },
+      {
+        "name": "Jest"
+      },
+      {
+        "name": "Enzyme"
+      },
+      {
+        "name": "Firebase Storage"
+      },
+      {
+        "name": "Google Firestore Database"
+      },
+      {
+        "name": "Photoshop"
+      }
+      
+    ],
+    "education": [
+      {
+        "school": "Army Institute Of Technology, Pune",
+        "university": "Savitribai Phule Pune University",
+        "degree": "Bachelor of Engineering",
+        "major": "Information Technology",
+        "description": "Graduated with First Class with Distinction"
+      },
+      {
+        "school": "Army Public School Delhi Cantt",
+        "board": "Central Board of Secondary Education - CBSE",
+        "degree": "Higher Secondary School",
+        "major": "PCM",
+        "graduated": "",
+        "description": "Physics, Chemistry, Maths"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Kheldhaara",
+        "category": "",
+        "image": "kheldhaara.jpg",
+        "url": "https://kheldhaara.com"
+      },
+      {
+        "title": "Netflix Clone",
+        "category": "",
+        "image": "netflix-full.jpg",
+        "url": "https://codepen.io/yogeshmalik/full/NWwwYjy"
+      },
+      {
+        "title": "Airbnb Clone",
+        "category": "",
+        "image": "airbnb.jpg",
+        "url": "https://airbnb-next-seven.vercel.app/"
+      }
+    ]
+  }
+}
