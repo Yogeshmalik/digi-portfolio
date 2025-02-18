@@ -70,7 +70,8 @@ header .banner-text h1 {
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
 }
 header .banner-text .responsive-headline .headType {
-  font-size: 75px;
+  font-size: 7rem;
+  line-height: normal;
 }
 
 header .banner-text h3 {

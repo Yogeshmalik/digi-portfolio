@@ -169,7 +169,7 @@ const Resume = ({ data }) => {
       <div className="row strengths-interests">
         <div className="three columns header-col">
           <h1 className="strengthsHero">
-            <span className="strengthsInterests">My Edge</span>
+            <span>My Edge</span>
           </h1>
         </div>
         <div className="nine columns main-col">
