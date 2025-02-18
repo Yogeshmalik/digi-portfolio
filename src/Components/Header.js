@@ -2,21 +2,23 @@ import React from "react";
 import TypeWriter from "react-typewriter";
 
 const Header = ({ data }) => {
-  if (data) {
-    var name = data.name;
-    var occupation = data.occupation;
-    var description = data.description;
-    var city = data.address.city;
-    var networks = data.social.map(function (network) {
-      return (
-        <li key={network.name}>
-          <a href={network.url}>
-            <i className={network.className}></i>
-          </a>
-        </li>
-      );
-    });
-  }
+  const {
+    name = "",
+    occupation = "",
+    description = "",
+    // address: { city = "" } = {},
+    social = [],
+  } = data || {};
+
+  const firstName = name.split(" ")[0];
+
+  const networks = social.map((network) => (
+    <li key={network.name}>
+      <a href={network.url} target="_blank" rel="noopener noreferrer">
+        <i className={network.className}></i>
+      </a>
+    </li>
+  ));
 
   return (
     <header id="home">
@@ -65,10 +67,15 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter className='headType' typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+            <TypeWriter className="headType" typing={0.5}>
+              {name ? `Hi, I'm ${firstName}` : null}
+            </TypeWriter>
           </h1>
           <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
+            {/* Based in {city}.  */}
+            <span>{occupation}</span>
+            <br />
+            <p style={{ color: "#16d3d9" }}>{description}</p>
           </h3>
           <hr />
           <ul className="social">{networks}</ul>

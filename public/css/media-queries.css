@@ -17,11 +17,25 @@
   }
   #resume .edu-description,
   #resume .edu,
+  #resume .achievements,
   #resume .edu .info,
   .eduHero,
+  .achievementsHero,
   .skillsHero,
   .workHero,
   #contact .row .getInTouchHero {
+    text-align: left;
+  }
+  .achievements .achievements-description,
+  .achievementsLocation {
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+  }
+  .achievementsLocation {
+    font: 16px / 24px "librebaskerville-italic", serif;
+  }
+  #resume .header-col .strengthsHero {
+    padding-bottom: 0px;
     text-align: left;
   }
   /* {
@@ -290,6 +304,14 @@
   #resume .info {
     text-align: center;
   }
+  #resume .achievementsLocation {
+    text-align: left;
+    margin: 0;
+  }
+  #resume .strengths h3,
+  #resume .interests h3 {
+    text-align: left;
+  }
 
   .bars {
     width: 100%;
@@ -426,7 +448,8 @@
   #go-top {
     margin-left: -22px;
   }
-  #go-top a {
+  #go-top a,
+  #go-top-fixed a {
     width: 54px;
     height: 54px;
     font-size: 18px;

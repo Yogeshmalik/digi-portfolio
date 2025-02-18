@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Yogesh Singh Malik",
-    "occupation": "ReactJs Developer",
-    "description": "I eat, sleep and breathe React",
+    "occupation": "The ReactJS Frontend Developer you’ve been looking for",
+    "description": "Bringing ideas to life with performant, scalable web apps with React.",
     "image": "profilepic.jpg",
-    "bio": "I'm Yogesh, fondly known as faujibryant, a highly skilled Software Developer specializing in React.js, currently residing in Janakpuri, New Delhi. My formative years were shaped by my father's dedicated service in the Army, instilling in me the values of discipline and commitment. I did my schooling at Army Public Schools in Udhampur(J&K), APS Dhaula Kuan and APS Delhi Cantt. I earned a Bachelor of Engineering degree(Information Technology) from the prestigious Army Institute of Technology in Pune, affiliated with Savitribai Phule Pune University. My career began at Trendsetters Skill Assessors Pvt. Ltd. as a Frontend Developer, where I honed my skills in React.js, HTML, CSS, JavaScript, Redux, Material UI, Bootstrap, Enzyme, Jest, Git, SQL, and other technologies. Afterward, I joined Vaionex APAC, focusing on blockchain and AI technologies, enhancing my skills in React, Next.js, Tailwind CSS, Supabase, Notion, and various JavaScript/React/Next.js libraries, as well as deployment platforms like Vercel. Currently, I am with a firm developing web portals and other applications for Indian Oil Corporation Limited (IOCL), New Delhi. My web development skills led me to explore freelancing opportunities, where I garnered valuable experience in both frontend and backend development. I have also represented Pune District Basketball team and South West Delhi teams in senior-level competitions for Basketball, Netball, and Korfball, and have actively volunteered for social causes too. Being a sportsman, I understand the value of team-spirit and is never discouraged by failure but is always eager to learn more every day. I'm seeking a role that aligns with my extensive skill set and experiences, offering competitive compensation and substantial growth opportunities & I am open to freelance opportunities. Thankyou for your time",
+    "bio": "I'm Yogesh, fondly known as faujiBryant, a React.js Developer based in Janakpuri, New Delhi. My formative years were shaped by my father's Army service, instilling in me discipline, commitment, and adaptability. I studied at Army Public Schools in Udhampur, Dhaula Kuan, and Delhi Cantt. before earning my B.E. in Information Technology from the prestigious Army Institute of Technology, Pune. I have worked with Trendsetters, Vaionex APAC, Indian Oil Corporation Ltd., and Tripjack, specializing in React, Next.js, Tailwind CSS, Redux, and UI optimization. At Tripjack, I enhanced hotel and travel dashboards, improving performance and user experience.  I have also represented Pune District Basketball team and South West Delhi teams in senior-level competitions for Basketball, Netball, and Korfball, and have actively volunteered for social causes too. Being a sportsman, I understand the value of team-spirit and is never discouraged by failure but is always eager to learn more every day. I thrive on teamwork, resilience, and continuous learning. I’m looking for a role that aligns with my expertise, offers growth, and values impact—open to both full-time and freelance opportunities. Let’s connect to explore how my skills can elevate your team. Together, we’ll achieve remarkable results.",
     "contactmessage": "Get in touch with me",
     "email": "ysmworking@gmail.com",
     "phone": "+91 7875884327",
@@ -15,50 +15,60 @@
       "zip": "1100XX"
     },
     "website": "https://codesandbox.io/u/yogeshmalik",
-    "resumedownload": "https://drive.google.com/file/d/1ldJvowXPClt4ziZvqPPHj_TSadVzEjqM/view",
+    "resumedownload": "https://drive.google.com/file/d/1wSosLLXQb-r2AtGPWOPQfoMg0VpfkyrD/view",
     "social": [
       {
         "name": "github",
         "url": "https://github.com/Yogeshmalik",
-        "className": "fa fa-github"
+        "className": "fa-brands fa-github"
       },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/ysmworking/",
-        "className": "fa fa-linkedin"
+        "className": "fa-brands fa-linkedin"
       },
       {
         "name": "Blog",
         "url": "https://medium.com/@ballerbytes",
-        "className": "fa fa-code || fa fa-rss"
+        "className": "fa-solid fa-rss"
       },
       {
         "name": "instagram",
         "url": "https://www.instagram.com/kilamhsegoy/",
-        "className": "fa fa-instagram"
+        "className": "fa-brands fa-instagram"
       }
     ]
   },
   "resume": {
     "skillmessage": "SKILLS AND TOOLS I KNOW",
-    
+
     "work": [
       {
-        "company": "Maxworth EPL - Indian Oil Corporation Ltd - IOCL - Onsite, New Delhi",
+        "company": "Tripjack Pvt. Ltd. (via Supersourcing Pvt. Ltd.)",
+        "logo": "/images/tripjack.png",
         "title": "SOFTWARE DEVELOPER",
-        "years": "03/2024 - Present",
+        "years": "Nov 2024 - Present",
+        "description": "During this tenure, I maintained Tripjack’s Hotels and Pluto dashboard applications, enhancing performance and usability using React, LESS, and other modern web technologies. Integrated Google Analytics for key metric tracking, optimized workflows with Agile methodologies (Jira, GitHub), and proactively resolved critical issues to improve application stability and user experience."
+      },
+      {
+        "company": "Indian Oil Corporation Ltd. (via Maxworth Electronics Pvt. Ltd.)",
+        "logo": "/images/iocl.jpg",
+        "title": "SOFTWARE DEVELOPER",
+        "years": "2024",
         "description": "During this tenure, I developed iSmart web portal for Indian Oil Corporation Ltd's senior officers for reports and analytics using React, Tailwind CSS and Various libraries and other techs like HTML, CSS, JavaScript, Material UI, Git, VS Code, and gained practical insights into crafting applications and maintenance of the website."
       },
       {
         "company": "Vaionex APAC",
+        "logo": "/images/vaionex.webp",
         "title": "FRONTEND DEVELOPER",
         "years": "2023",
         "description": "During this tenure, I Developed full-stack web applications using Next.JS, React, Tailwind CSS and Notion, including HTML, CSS, JavaScript, Redux, Material UI, Tailwind CSS, Git, VS Code, Google Firebase Firestore Database, Firebase Storage, Firebase hosting and gained practical insights into crafting applications and maintenance of the website."
       },
       {
         "company": "Trendsetters Skill Assessors Pvt. Ltd.",
+        "logo": "/images/trendsetters.png",
         "title": "FRONTEND DEVELOPER",
-        "years": "07/2020 - 09/2021",
+        "years": "Jul 2020 - Sep 2021",
         "description": "During this tenure, I polished my frontend and backend development skills, including React.js, HTML, CSS, JavaScript, Redux, Material UI, Bootstrap, Enzyme, Jest, Git, SQL, Tableau, Photoshop, VS Code, Google Firebase Firestore Database, Firebase Storage, Firebase hosting and gained practical insights into crafting applications and maintenance of the website. If you know of any job openings in your company or network that may be a good fit for me, please let me know."
       },
       {
@@ -74,6 +84,48 @@
         "description": "Experience working as a Business Development Executive, where I gained expertise in Excel, Business opportunities, Marketing literature, Sales, Revenue, and Invoices. I've also worked in B2B and B2C environment and has proficiency in Tableau and Sales."
       }
     ],
+    "projects": [
+      {
+        "name": "Hotels and Pluto Dashboard",
+        "company": "Tripjack Pvt. Ltd.",
+        "description": "Developed and maintained dashboard features like Hotel Search, Manage Carts, and Manage Amendments. Improved operational efficiency by 30% with streamlined booking and inventory management. Integrated Google Analytics to track key metrics, boosting performance by 15%. Collaborated with teams to enhance hotel management and reporting workflows."
+      },
+      {
+        "name": "iSmart 2.0",
+        "company": "Indian Oil Corporation Ltd.",
+        "description": "Developed iSmart web portal for senior officers for reports and analytics. Implemented intuitive user interfaces for optimal user experience, focusing on usability & UI. Contributed actively to Agile methodologies and collaboration tools, resulting in a 20% improvement in project workflow."
+      },
+      {
+        "name": "Indian Oil RFC",
+        "company": "Indian Oil Corporation Ltd.",
+        "description": "Built this project to ease the hierarchy permission process for Indian Oil Officers using Next.js, React, and other modern technologies."
+      },
+      {
+        "name": "BSV-Blockchain",
+        "company": "Vaionex Corp.",
+        "link": "https://www.bsvblockchain.org/",
+        "description": "Implemented intuitive user interfaces for optimal user experience, focusing on usability & UI. Contributed actively to Agile methodologies and collaboration tools, resulting in a 20% improvement in project workflow. Successfully integrated third-party applications based on project requirements."
+      },
+      {
+        "name": "Relysia - Bitcoin Wallet",
+        "company": "Vaionex Corp.",
+        "description": "Implemented API integrations, performing CRUD operations securely and efficiently. Resolved issues and debugged the web application, ensuring smooth and error-free operation for end-users. Contributed to the continuous improvement of the product by maintaining and updating the website."
+      },
+      {
+        "name": "AI Forge London - MATRX",
+        "company": "Vaionex Corp.",
+        "description": "Developed a user-friendly web application for Matrx Group. Built dynamic forms and UI components, actively participating in enhancements."
+      },
+      {
+        "name": "Kheldhaara",
+        "description": "Created a full-stack web application for a Tennis Group. Integrated real-time updates using Firebase’s backend-as-a-service, ensuring user access to the latest information."
+      },
+      {
+        "name": "Cricket Winner",
+        "description": "Cricket Winner is a cricket match prediction and news website for cricket fanatics seeking access to everything from fantasy tips, sportsbooks, match odds, live scores, cricket news, and videos."
+      }
+    ],
+
     "skills": [
       {
         "name": "React.Js",
@@ -119,6 +171,9 @@
         "name": "VS Code"
       },
       {
+        "name": "Jira"
+      },
+      {
         "name": "Jest"
       },
       {
@@ -133,7 +188,6 @@
       {
         "name": "Photoshop"
       }
-      
     ],
     "education": [
       {
@@ -151,6 +205,52 @@
         "graduated": "",
         "description": "Physics, Chemistry, Maths"
       }
+    ],
+    "achievements": [
+      {
+        "title": "Pune University Basketball Player",
+        "location": "Pune, MH",
+        "description": "First-ever selection from college since 1994."
+      },
+      {
+        "title": "Delhi Senior State Championships",
+        "location": "New Delhi, India",
+        "description": "Represented Delhi West zone in Basketball, Netball, and Korfball."
+      },
+      {
+        "title": "AWES Sports Scholarship",
+        "location": "India",
+        "description": "Selection in Pune District Team."
+      },
+      {
+        "title": "Best Sports Person",
+        "location": "India",
+        "description": "Overall Performance at Army Institute of Technology."
+      },
+      {
+        "title": "Designed Basketball Jerseys",
+        "location": "India",
+        "description": "Designed basketball team jerseys for 4 years using Photoshop."
+      }
+    ],
+    "strengths": [
+      { "name": "Adaptability", "icon": "fa-solid fa-sync-alt" },
+      { "name": "Curious to learn", "icon": "fa-solid fa-lightbulb" },
+      { "name": "Team player", "icon": "fa-solid fa-users" },
+      { "name": "Hardworking", "icon": "fa-solid fa-briefcase" },
+      { "name": "Leadership", "icon": "fa-solid fa-user-tie" },
+      { "name": "Discipline", "icon": "fa-solid fa-check-circle" },
+      { "name": "Patience", "icon": "fa-solid fa-hourglass-half" },
+      { "name": "Communication", "icon": "fa-solid fa-comments" }
+    ],
+    "interests": [
+      { "name": "Basketball", "icon": "fa-solid fa-basketball-ball" },
+      { "name": "Photography", "icon": "fa-solid fa-camera" },
+      { "name": "Travel", "icon": "fa-solid fa-plane" },
+      { "name": "Cycling", "icon": "fa-solid fa-bicycle" },
+      { "name": "Music", "icon": "fa-solid fa-music" },
+      { "name": "Technology", "icon": "fa-solid fa-microchip" },
+      { "name": "Pollution is Complimentary", "icon": "fa-solid fa-leaf" }
     ]
   },
   "portfolio": {
@@ -160,18 +260,6 @@
         "category": "",
         "image": "kheldhaara.jpg",
         "url": "https://kheldhaara.com"
-      },
-      {
-        "title": "Netflix Clone",
-        "category": "",
-        "image": "netflix-full.jpg",
-        "url": "https://codepen.io/yogeshmalik/full/NWwwYjy"
-      },
-      {
-        "title": "Airbnb Clone",
-        "category": "",
-        "image": "airbnb.jpg",
-        "url": "https://airbnb-next-seven.vercel.app/"
       }
     ]
   }

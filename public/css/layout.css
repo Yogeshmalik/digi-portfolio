@@ -233,7 +233,7 @@ ul#nav li.current a {
 }
 #about p {
   line-height: 30px;
-  color: #7a7a7a;
+  color: #b9b8b8;
 }
 /* #about .three{
   text-align: center;
@@ -296,6 +296,11 @@ ul#nav li.current a {
   border-bottom: 3px solid #11abb0;
   padding-bottom: 6px;
 }
+#resume .strengthsHero .strengthsInterests {
+  padding-bottom: 0px;
+  text-align: left;
+  /* width: 100%; */
+}
 #resume h3 {
   font: 25px/30px "opensans-bold", sans-serif;
 }
@@ -309,8 +314,8 @@ ul#nav li.current a {
 
 .education,
 .work {
-  margin-bottom: 48px;
-  padding-bottom: 24px;
+  margin-bottom: 1rem;
+  /* padding-bottom: 1.5rem; */
   border-bottom: 1px solid #e8e8e8;
 }
 #resume .info {
@@ -323,9 +328,139 @@ ul#nav li.current a {
   margin-right: 5px;
   margin-left: 5px;
 }
+#resume .coy span {
+  margin-right: 5px;
+  margin-left: 0px;
+  margin-bottom: 0.5rem;
+}
+#resume .coy {
+  margin-bottom: 0.5rem;
+}
+#resume .logoHeading {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+#resume .company-logo {
+  width: auto; /* Adjust the size */
+  height: 5rem;
+  margin-left: 10px;
+  vertical-align: middle; /* Align with text */
+  border-radius: 5px; /* Optional: rounded corners */
+  object-fit: contain;
+}
+
+#resume .achievementsLocation {
+  margin-right: 0;
+  margin-left: 0;
+}
 #resume .date {
   font: 15px/24px "opensans-regular", sans-serif;
   margin-top: 6px;
+}
+
+.achievementsHero,
+.strengthsHero {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.achievements {
+  margin-bottom: 1px;
+  padding-bottom: 0.5rem;
+}
+
+.achievements .achievements-description {
+  margin-bottom: 1px;
+  padding-bottom: 10px;
+}
+
+.strengths,
+.interests {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+
+.strengths ul,
+.interests ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.strengths li i,
+.interests li i {
+  font-size: 2rem;
+  width: 10%;
+  margin-right: 10px;
+}
+
+.strengths li,
+.interests li {
+  display: flex;
+  align-items: center;
+  background: #ccc;
+  padding: 8px 12px;
+  margin: 5px 10px 8px 0;
+  border-radius: 5px;
+  font: 1rem "opensans-bold", sans-serif;
+  color: #313131;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.fa-sync-alt {
+  color: #3498db;
+} /* Adaptability - Blue */
+.fa-lightbulb {
+  color: #f1c40f;
+} /* Curious to Learn - Yellow */
+.fa-users {
+  color: #2ecc71;
+} /* Team Player - Green */
+.fa-briefcase {
+  color: #2c3e50;
+} /* Hardworking - Dark Gray */
+.fa-user-tie {
+  color: #8e44ad;
+} /* Leadership - Purple */
+.fa-check-circle {
+  color: #27ae60;
+} /* Discipline - Green */
+.fa-hourglass-half {
+  color: #e67e22;
+} /* Patience - Orange */
+.fa-comments {
+  color: #1abc9c;
+} /* Communication - Teal */
+.fa-basketball-ball {
+  color: #f88158;
+} /* Basketball - Red/Orange */
+.fa-camera {
+  color: #34495e;
+} /* Photography - Dark Gray */
+.fa-plane {
+  color: #2980b9;
+} /* Travel - Blue */
+.fa-bicycle {
+  color: #16a085;
+} /* Cycling - Teal */
+.fa-music {
+  color: #9b59b6;
+} /* Music - Purple */
+.fa-microchip {
+  color: #7f8c8d;
+} /* Technology - Silver/Gray */
+.fa-leaf {
+  color: #2ecc71;
+} /* Vibrant Green */
+
+@media (max-width: 768px) {
+  .strengths,
+  .interests {
+    width: 100%;
+    text-align: left;
+  }
 }
 
 /*----------------------------------------------*/
@@ -363,7 +498,8 @@ ul#nav li.current a {
   padding: 10px;
   margin: 5px 10px;
 }
-.bars li em {
+.bars li em,
+.strengths-interests li em {
   text-align: left;
   font: 15px "opensans-bold", sans-serif;
   color: #313131;
@@ -492,7 +628,7 @@ ul#nav li.current a {
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
-  color: #95a3a3;
+  color: #788989;
 }
 
 /* Portfolio Content */
@@ -608,7 +744,7 @@ ul#nav li.current a {
 .popup-modal .description-box p {
   font: 14px/24px "opensans-regular", sans-serif;
   color: #a1a1a1;
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
 }
 .popup-modal .description-box .categories {
   font: 11px/21px "opensans-light", sans-serif;
@@ -877,7 +1013,7 @@ call-to-action .button {
   margin: 0 6px;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
 }
 .flex-control-paging li a {
   width: 12px;
@@ -911,7 +1047,7 @@ call-to-action .button {
   background: #191919;
   padding-top: 96px;
   padding-bottom: 102px;
-  color: #636363;
+  color: #c3c3c3;
 }
 #contact .section-head {
   margin-bottom: 42px;
@@ -1127,7 +1263,16 @@ footer .social-links li:first-child {
   left: 50%;
   margin-left: -30px;
 }
-#go-top a {
+#go-top-fixed {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  text-align: center;
+}
+#go-top a,
+#go-top-fixed a {
   text-decoration: none;
   border: 0 none;
   display: block;
@@ -1146,6 +1291,7 @@ footer .social-links li:first-child {
   line-height: 60px;
   border-radius: 100%;
 }
-#go-top a:hover {
+#go-top a:hover,
+#go-top-fixed a:hover {
   background-color: #0f9095;
 }
