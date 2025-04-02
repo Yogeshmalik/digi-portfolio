@@ -121,6 +121,10 @@
         "description": "Created a web application for a PG. Ensuring user access to the latest information."
       },
       {
+        "name": "Kilam GPT",
+        "description": "AI-powered chat assistant is here! Start asking questions and explore the power of AI."
+      },
+      {
         "name": "Kheldhaara",
         "description": "Created a full-stack web application for a Tennis Group. Integrated real-time updates using Firebase’s backend-as-a-service, ensuring user access to the latest information."
       },
@@ -264,6 +268,12 @@
         "category": "",
         "image": "kheldhaara.jpg",
         "url": "https://kheldhaara.com"
+      },
+      {
+        "title": "Kilam GPT",
+        "category": "",
+        "image": "kilamgpt.jpg",
+        "url": "https://kilam-gpt.vercel.app/"
       },
       {
         "title": "SSYStem PG",
