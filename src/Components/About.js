@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import ResumeModal from "./ResumeModal";
 
 const About = ({ data }) => {
+  const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
+
   if (data) {
     var name = data.name;
     var profilepic = "images/" + data.image;
@@ -47,14 +50,26 @@ const About = ({ data }) => {
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button">
+                <button
+                  onClick={() => setIsResumeModalOpen(true)}
+                  className="button"
+                  style={{
+                    cursor: "pointer",
+                  }}
+                >
                   <i className="fa fa-download"></i>Download Resume
-                </a>
+                </button>
               </p>
             </div>
           </div>
         </div>
       </div>
+
+      <ResumeModal
+        isOpen={isResumeModalOpen}
+        onClose={() => setIsResumeModalOpen(false)}
+        resumePath="/resume.pdf"
+      />
     </section>
   );
 };

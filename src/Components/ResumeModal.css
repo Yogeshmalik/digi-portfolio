@@ -1,0 +1,132 @@
+.resume-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.resume-modal-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 900px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  animation: slideIn 0.3s ease-out;
+}
+
+.resume-modal-container.fullscreen {
+  width: 98vw;
+  height: 96vh;
+  max-width: none;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.resume-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid #e8e8e8;
+  background-color: #f5f5f5;
+  border-radius: 8px 8px 0 0;
+  min-height: auto;
+}
+
+.resume-modal-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.resume-modal-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.resume-modal-btn {
+  padding: 6px 12px;
+  background-color: #11abb0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 32px;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.resume-modal-btn:hover {
+  background-color: #f06000;
+}
+
+.resume-modal-close:hover {
+  background-color: red;
+}
+
+.resume-modal-body {
+  flex: 1;
+  overflow: auto;
+  padding: 0;
+}
+
+.resume-modal-body iframe {
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .resume-modal-container {
+    width: 95%;
+    height: 85vh;
+  }
+
+  .resume-modal-header {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .resume-modal-title {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .resume-modal-actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .resume-modal-btn,
+  .resume-modal-close {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .resume-modal-btn i {
+    display: none;
+  }
+}
