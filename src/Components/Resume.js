@@ -1,4 +1,3 @@
-import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Resume = ({ data }) => {
@@ -29,7 +28,11 @@ const Resume = ({ data }) => {
         {workItem.title}
         <span>&bull;</span> <em className="date">{workItem.years}</em>
       </p>
-      <p>{workItem.description}</p>
+      {Array.isArray(workItem.description) ? (
+        workItem.description.map((desc, index) => <p key={index}>{desc}</p>)
+      ) : (
+        <p>{workItem.description}</p>
+      )}
     </div>
   ));
 
