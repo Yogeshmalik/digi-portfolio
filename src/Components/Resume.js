@@ -26,7 +26,8 @@ const Resume = ({ data }) => {
       </div>
       <p className="info">
         {workItem.title}
-        <span>&bull;</span> <em className="date">{workItem.years}</em>
+        {workItem.years && <span>&bull;</span>}
+        <em className="date">{workItem.years}</em>
       </p>
       {Array.isArray(workItem.description) ? (
         workItem.description.map((desc, index) => <p key={index}>{desc}</p>)

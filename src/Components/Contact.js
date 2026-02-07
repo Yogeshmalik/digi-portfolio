@@ -94,7 +94,7 @@ const Contact = ({ data }) => {
                 </label>
                 <textarea
                   cols="50"
-                  rows="15"
+                  rows="5"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   id="contactMessage"

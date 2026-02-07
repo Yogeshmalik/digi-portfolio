@@ -4,10 +4,10 @@
     "occupation": "The React Developer you've been looking for",
     "description": "Bringing ideas to life with performant, scalable web apps with React & Nextjs.",
     "image": "profilepic.jpg",
-    "bio": "I'm Yogesh, fondly known as faujiBryant, a React.js Developer based in Janakpuri, New Delhi. My formative years were shaped by my father's Army service, instilling in me discipline, commitment, and adaptability. I studied at Army Public Schools in Udhampur, Dhaula Kuan, and Delhi Cantt. before earning my B.E. in Information Technology from the prestigious Army Institute of Technology, Pune. I have worked with Trendsetters, Vaionex APAC, Indian Oil Corporation Ltd., and Tripjack, specializing in React, Next.js, Tailwind CSS, Redux, and UI optimization. At Tripjack, I enhanced hotel and travel dashboards, improving performance and user experience.  I have also represented Pune District Basketball team and South West Delhi teams in senior-level competitions for Basketball, Netball, and Korfball, and have actively volunteered for social causes too. Being a sportsman, I understand the value of team-spirit and is never discouraged by failure but is always eager to learn more every day. I thrive on teamwork, resilience, and continuous learning. I'm looking for a role that aligns with my expertise, offers growth, and values impact—open to both full-time and freelance opportunities. Let's connect to explore how my skills can elevate your team. Together, we'll achieve remarkable results.",
+    "bio": "I'm Yogesh, fondly known as faujiBryant, a React.js Developer based in New Delhi. My formative years were shaped by my father's Army service, instilling in me discipline, commitment, and adaptability. I studied at Army Public Schools across India before earning my B.E. degree in Information Technology from the prestigious Army Institute of Technology, Pune. I have worked with Trendsetters, Vaionex APAC, Indian Oil Corporation Ltd., Tripjack, and various clients through freelancing specializing in React, Next.js, Tailwind CSS, Redux, and UI optimization. I have also represented Pune District Basketball team and South West Delhi teams in senior-level competitions for Basketball, Netball, and Korfball, and have actively volunteered for social causes too. Being a sportsman, I understand the value of team-spirit and is never discouraged by failure but is always eager to learn more every day. I thrive on teamwork, resilience, and continuous learning. I'm looking for a role that aligns with my expertise, offers growth, and values impact - open to both full-time and freelance opportunities. Let's connect to explore how my skills can elevate your team. Together, we'll achieve remarkable results.",
     "contactmessage": "Get in touch with me",
     "email": "ysmworking@gmail.com",
-    "phone": "+91 7875884327",
+    "phone": "+91 **********",
     "address": {
       "street": "",
       "city": "New Delhi",
@@ -34,7 +34,7 @@
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/kilamhsegoy/",
+        "url": "https://www.instagram.com/thesixftperspective/",
         "className": "fa-brands fa-instagram"
       }
     ]
@@ -47,41 +47,41 @@
         "company": "Independent Frontend Consultant",
         "logo": "",
         "title": "Senior React + Next.js Developer",
-        "years": "Feb 2022 - Dec 2025",
+        "years": "Feb 2022 - Present",
         "description": [
           "Delivered end-to-end frontend solutions for startups and SMEs using React, Next.js, and Tailwind CSS, focusing on performance, scalability, and clean architecture. Built responsive dashboards, landing pages, and SaaS platforms with API integrations, authentication, and analytics. Collaborated closely with founders and backend teams to translate business requirements into reliable digital products. Utilized modern development workflows, AI-assisted tools, and best practices to accelerate delivery while maintaining high code quality and long-term maintainability.",
-          "* SSYStem PG - Remote - (Gurugram, Haryana, India) | Oct 2025 - Dec 2025",
-          "* Novathes GmbH (Kolsetu Inc.) - Remote - (Hamburg, Germany) | May 2025 - Sep 2025",
-          "* Veerpath Defence Academy - Remote - (New Delhi, India) | Mar 2025 - Apr 2025",
-          "* We Code For You - Remote - (New Delhi, India) | Oct 2022 - Dec 2022"
+          "* SSYStem PG - Remote - (Gurugram, Haryana, India)",
+          "* Novathes GmbH (Kolsetu Inc.) - Remote - (Hamburg, Germany)",
+          "* Veerpath Defence Academy - Remote - (New Delhi, India)",
+          "* We Code For You - Remote - (New Delhi, India)"
         ]
       },
       {
-        "company": "Tripjack Pvt. Ltd. (via Supersourcing Pvt. Ltd.)",
+        "company": "Tripjack Pvt. Ltd.",
         "logo": "/images/tripjack.png",
         "title": "Software Development Engineer (Fixed-Term Contract)",
-        "years": "Nov 2024 - Feb 2025",
-        "description": "During this tenure, I was brought in on a fixed-term contract specifically to optimize the performance of their 'Pluto' dashboard. They were facing issues with page load latency on hotel searches, which was affecting B2B conversions. My mission was to identify the bottlenecks and fix them. I implemented aggressive code-splitting and integrated Google Analytics 4 for better observability, achieving a 15% reduction in load times. Once those critical performance benchmarks were met and the system was stabilized, my contract concluded."
+        "years": "",
+        "description": "via Supersourcing Technologies Pvt. Ltd. During this tenure, I was brought in on a fixed-term contract specifically to optimize the performance of their 'Pluto' dashboard. They were facing issues with page load latency on hotel searches, which was affecting B2B conversions. My mission was to identify the bottlenecks and fix them. I implemented aggressive code-splitting and integrated Google Analytics 4 for better observability, achieving a 15% reduction in load times. Once those critical performance benchmarks were met and the system was stabilized, my contract concluded."
       },
       {
-        "company": "Indian Oil Corporation Ltd. (via Maxworth Electronics Pvt. Ltd.)",
+        "company": "IndianOil Corporation Ltd.",
         "logo": "/images/iocl.jpg",
-        "title": "SOFTWARE DEVELOPER",
-        "years": "2024",
-        "description": "During this tenure, this was a digital transformation mandate. IOCL needed to modernize their 'iSmart' reporting portal for senior officers. They brought me in to lead the migration from legacy views to a modern React/Tailwind architecture. Government projects often have very specific delivery milestones; my role was to architect the new frontend, ensure it met internal security protocols, and hand it over for maintenance. I successfully delivered the 'iSmart 2.0' upgrade."
+        "title": "Software Developer",
+        "years": "",
+        "description": "via Maxworth Electronic Systems (P) Ltd. During this tenure, this was a digital transformation mandate. IOCL needed to modernize their 'iSmart' reporting portal for senior officers. They brought me in to lead the migration from legacy views to a modern React/Tailwind architecture. Government projects often have very specific delivery milestones; my role was to architect the new frontend, ensure it met internal security protocols, and hand it over for maintenance. I successfully delivered the 'iSmart 2.0' upgrade."
       },
       {
         "company": "Vaionex APAC",
         "logo": "/images/vaionex.webp",
-        "title": "FRONTEND DEVELOPER",
-        "years": "Feb 2023 - Mar 2024",
+        "title": "Frontend Developer",
+        "years": "",
         "description": "During this tenure, I Developed full-stack web applications using Next.JS, React, Tailwind CSS and Notion, including HTML, CSS, JavaScript, Redux, Material UI, Tailwind CSS, Git, VS Code, Google Firebase Firestore Database, Firebase Storage, Firebase hosting and gained practical insights into crafting applications and maintenance of the website."
       },
       {
         "company": "Trendsetters Skill Assessors Pvt. Ltd.",
         "logo": "/images/trendsetters.png",
-        "title": "FRONTEND DEVELOPER",
-        "years": "Jul 2020 - Jan 2022",
+        "title": "Frontend Developer",
+        "years": "",
         "description": "During this tenure, I polished my frontend and backend development skills, including React.js, HTML, CSS, JavaScript, Redux, Material UI, Bootstrap, Enzyme, Jest, Git, SQL, Tableau, Photoshop, VS Code, Google Firebase Firestore Database, Firebase Storage, Firebase hosting and gained practical insights into crafting applications and maintenance of the website. If you know of any job openings in your company or network that may be a good fit for me, please let me know."
       },
       {
@@ -212,6 +212,12 @@
       },
       {
         "name": "Photoshop"
+      },
+      {
+        "name": "AI"
+      },
+      {
+        "name": "AWS"
       }
     ],
     "education": [
@@ -287,16 +293,22 @@
         "url": "https://kheldhaara.com"
       },
       {
-        "title": "Kilam GPT",
+        "title": "Novathes Business Website",
         "category": "",
-        "image": "kilamgpt.jpg",
-        "url": "https://kilam-gpt.vercel.app/"
+        "image": "elba-novathes.jpg",
+        "url": "https://novathes.com/"
       },
       {
         "title": "SSYStem PG",
         "category": "",
         "image": "ssys.jpg",
         "url": "https://pg-ssys.vercel.app/"
+      },
+      {
+        "title": "Veerpath Defence Academy",
+        "category": "",
+        "image": "veerpath.jpg",
+        "url": "https://www.veerpath.com/"
       }
     ]
   }
